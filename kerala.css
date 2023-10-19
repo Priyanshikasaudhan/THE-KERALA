@@ -1,0 +1,921 @@
+body{
+  overflow-x: hidden;
+} 
+
+#home{
+    width: 100%;
+    height: 100vh;
+background-color: white;
+margin: 0;
+    background-size: cover;
+}
+#about{
+    width: 100%;
+    height: 95vh;
+  margin: 0;
+}
+#experience{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+#history{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(238, 237, 245);
+
+}
+#experience{
+    width: 100%;
+    height: 100vh;
+margin: 0;
+}
+#places{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(246, 250, 10);
+}
+#footer{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    margin-top: 20px;
+}
+#Banner{
+
+width: 100%;
+height: 100px;
+background-color: white;
+margin: 0;
+}
+#logo{
+width: 30%;
+height: 100px;
+float: left;
+
+} 
+#search{
+    width: 70%;
+    height: 100px;
+     
+    float: right;
+}
+#img{
+    width:100% ;
+    height: 90vh;
+    
+    margin-top: 10px
+    
+}
+ 
+#write{
+    width:100% ;
+    height:250px;
+    background-color: rgb(17, 233, 82);
+    margin-top: 5px;
+}
+ 
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+
+ h1{
+    float: left;
+    color: crimson;
+    font-weight: initial;
+    font-size: 5em;
+    position: absolute;
+    
+    left: 60%;
+    transform:  translate(-50%, -50%);
+    z-index: 3;
+
+}  
+.box{
+    width: 33.33%;
+    height: 280px;
+
+    float: left;
+  
+}
+.col_m1{
+    width: 100%;
+    height: 200px;
+  
+} 
+.col_m1 a:hover{
+  color: teal;
+  opacity: 0.3;
+} 
+.ro_w1
+{
+    width: 100%;
+    height: 80px;
+    background-color:yellow;
+}
+.ro_w3 a:hover{
+  color: teal;
+  opacity: 0.3;
+}  
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  .box2{
+    width: 33.33%;
+    height: 270px;
+    
+    float: left;
+    
+}
+ .box3{
+  width: 33.33%;
+  height:280px;
+
+  float: right;
+  
+}
+.col_m3{
+  width: 100%;
+  height: 200px;
+  
+}  
+.col_m3 a:hover{
+  color: teal;
+  opacity: 0.3;
+}
+.ro_w3
+{
+  width: 50%;
+  height: 70px; 
+}
+.ro_w3 a:hover{
+  color: teal;
+  opacity: 0.3;
+}
+ /* text*/
+ .box1 {
+	display: flex;
+}
+
+.box1 .inner {
+	width: 50%;
+	height: 65px;
+	line-height: 70px;
+	font-size: 4em;
+	font-family: sans-serif;
+	font-weight: bold;
+	white-space: nowrap;
+  overflow: hidden;
+  margin-left: 10%;
+}
+
+.box1 .inner:first-child {
+	background-color: rgb(243, 17, 17);
+	color: rgb(196, 164, 164);
+	transform-origin: right;
+  transform: perspective(350px) rotateY(-15deg);
+  margin-left: 10%;
+}
+
+.box1 .inner:last-child {
+	background-color: rgb(243, 13, 13);
+	color: antiquewhite;
+	transform-origin: left;
+  transform: perspective(350px) rotateY(15deg);
+  margin-left: 10%;
+}
+
+.box1 .inner span {
+	position: absolute;
+	animation: marquee 2s linear infinite;
+}
+
+.box1 .inner:first-child span {
+	animation-delay: 0.5s;
+	left: -100%;
+}
+
+@keyframes marquee {
+	from {
+		left: 100%;
+	}
+
+	to {
+		left: -100%;
+	}
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  height: 400px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(134, 15, 15);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+ 
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+ 
+ p{
+  width: 100%;
+  height: 400px;
+font-size: 30px;
+}
+.write_conter{
+  width: 100%;
+   height: 150px;
+   color: rgb(20, 59, 233);
+   position: absolute;
+}
+ 
+.write_conter h2::after{
+     
+     content: '';
+     background: #ff4d73;
+     display: block;
+     height:5px;
+     width: 250px;
+     margin: 15px auto 50px;
+}
+.esper{
+  width: 100%;
+  height: 150px;
+background-color: rgb(241, 199, 180);
+
+}
+.esper1{
+  width: 100%;
+  height: 600px;
+  
+  margin-bottom: 200px;
+  margin: 0;
+   
+}
+ 
+ 
+ 
+ 
+#esper_text
+{
+  width: 100%;
+  height: 100px;
+  margin-top: 250px;
+  background-color: #355551b2;
+}
+ 
+/* esper_img1*/ 
+.esper_img1 {
+  position: relative;
+  width: 32%;
+  height: 600px;
+  background-color: #bb0000;
+  margin: 0;
+  float: left;
+  background-image: url("/home/priyanshi/BHARAT/Aymanam2.jpg");
+background-size: 100%;
+margin-left: 5px;
+border-bottom: 15px solid sienna;
+}
+  
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+background-color: rgb(124, 99, 99);
+  opacity: 0.6;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.esper_img1:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*  esper_img2*/ 
+.esper_img2{
+  position: relative;
+  width: 32%;
+  height: 600px;
+  background-color: #bb0000;
+  margin: 0;
+  float:left;
+  background-image: url("/home/priyanshi/BHARAT/images/Experience_Kerala.jpg");
+background-size: 100%;
+border-bottom: 15px solid tomato;
+margin-left: 5px;
+}
+  
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+background-color: rgb(124, 99, 99);
+  opacity: 0.6;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.esper_img2:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*esper_img3*/
+.esper_img3{
+  position: relative;
+  width: 32%;
+  height: 600px;
+  background-color: #bb0000;
+  margin: 0;
+  float: left;
+  background-image: url("/home/priyanshi/BHARAT/artform3.jpg");
+background-size: 100%;
+margin-left: 5px;
+border-bottom: 15px solid seagreen;
+}
+
+  
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+background-color: rgb(124, 99, 99);
+  opacity: 0.6;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.esper_img3:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*esper_img4*/
+.esper_img4{
+  position: relative;
+  width: 32%;
+  height: 470px;
+  background-color: #bb0000;
+border-bottom: 15px solid springgreen;
+  float: left;
+  background-image: url("/home/priyanshi/BHARAT/3-Ayruveda2.jpg");
+background-size: 100%;
+margin-left: 5px;
+}
+  
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+background-color: rgb(124, 99, 99);
+  opacity: 0.6;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.esper_img4:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.esper2{
+  width: 100%;
+  height: 600px;
+  margin: 0;  
+}
+/*esper_img5*/
+.esper_img5{
+  position: relative;
+  width: 32%;
+  height: 470px;
+  background-color: #bb0000;
+  margin: 0;
+  float: left;
+  background-image: url("/home/priyanshi/BHARAT/images/judaisam12.jpg");
+background-size: 100%;
+margin-left: 5px;
+border-bottom: 15px solid teal;
+}
+  
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+background-color: rgb(124, 99, 99);
+  opacity: 0.6;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.esper_img5:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*esper_img6*/
+.esper_img6{
+  position: relative;
+  width: 32%;
+  height: 470px;
+  background-color: #bb0000;
+  margin: 0;
+  float: left;
+  background-image: url("/home/priyanshi/BHARAT/images/palakkad-ebrochure1.jpg");
+background-size: 100%;
+margin-left: 5px;
+border-bottom: 15px solid tomato;
+}
+  
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+background-color: rgb(124, 99, 99);
+  opacity: 0.6;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.esper_img6:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*table*/
+table, th, td {
+  border:1px solid rgb(95, 92, 92);
+}
+/*ker_his*/
+.ker_his{
+  width: 40%;
+  height: 100vh;
+  float: right;
+  background-color: snow;
+}
+.ker_his1{
+  width: 40%;
+  height: 100vh;
+  float: right;
+  background-color: rgb(247, 244, 244);
+}
+.his{
+  width: 60%;
+  height:100vh;
+  background-color: rgb(175, 176, 180);
+  float: left;
+}
+.his1{
+  width: 60%;
+  height:100vh;
+  
+  float: left;
+}
+.his2{
+  width: 60%;
+  height:100vh;
+  background-color: #f5f7f4;
+  float: left;
+}
+.nature{
+  width: 60%;
+  height:55vh;
+  background-color:lightgray;
+  float: left;
+}
+.nature_1{
+  width: 60%;
+  height:40vh;
+  background-color: #b6f3aa;
+  float: left;
+  margin-left: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  margin-top: 10px;
+}
+.nature1{
+  width: 60%;
+  height:45vh;
+  background-color:lightgray;
+  float: left;
+}
+.nature_2{
+  width: 60%;
+  height:40vh;
+  background-color: #b6f3aa;
+  float: left;
+  margin-left: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  
+}
+.vernor_img{
+  width:90%;
+  height: 350px;
+  margin-top: 30px;
+  background-color: rgb(233, 234, 241);
+
+  float: left;
+  margin-left: 20px;
+}
+.vernor_text{
+  height: 100px;
+  border: 5px solid rgb(92, 230, 216);
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.chief_text{
+  height: 100px;
+  border: 5px solid turquoise;
+
+  margin-left: 5px;
+}
+ 
+.chief_img{
+  width:90%;
+  height: 380px;
+margin-top: 30px;
+  background-color: rgb(250, 250, 253);
+  border: 2px solid springgreen;
+  float: left;
+  margin-left: 20px;
+}
+.photo{
+  width: 100%;
+  height: 250px;
+  background-color: #16bb00;
+}
+.photo1{
+  width: 100%;
+  height: 250px;
+  background-color: #16bb00;
+  margin: 0;
+}
+.pho_to{
+  width: 16%;
+  height: 250px;
+  background-color: rgb(157, 199, 231);
+  margin: 0;
+}
+#pho_text{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(238, 128, 85);
+}
+/* photo */
+.pho_img {
+  position: relative;
+  width: 25%;
+  height: 250px;
+  margin: 0 ;
+  float: left;
+}
+
+.pho_img img {vertical-align: middle;}
+
+.pho_img .pho_text {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(253, 209, 12, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 89%;
+  height: 50px;
+  padding: 20px;
+} 
+/**/
+.pho_img1 {
+  position: relative;
+  max-width: 210px;
+  height: 250px;
+  margin: 0 ;
+  float: right;
+  
+}
+
+.pho_img1 img {vertical-align: middle;}
+
+.pho_img1 .pho_text1 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(253, 209, 12, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 82%;
+  height: 50px;
+  padding: 20px;
+  
+} 
+/* img2*/
+.pho_img2 {
+  position: relative;
+  max-width: 210px;
+  height: 250px;
+  margin: 0 ;
+  float: left;
+  
+}
+
+.pho_img2 img {vertical-align: middle;}
+
+.pho_img1 .pho_text2 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(253, 209, 12, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 82%;
+  height: 50px;
+  padding: 10px;
+  
+} 
+/* Style all font awesome icons */
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.icon{
+  float: right;
+}
+#contact{
+  width: 90%;
+  height: 500px;
+  background-color: #555;
+  margin-top:50px;
+  margin-left: 60px;
+}
+.pho_conter{
+  width: 100%;
+   height: 150px;
+   color: rgb(20, 59, 233);
+   position: absolute;
+}
+ 
+.pho_conter h2::after{
+     
+     content: '';
+     background: #ff4d73;
+     display: block;
+     height:5px;
+     width: 200px;
+     margin: 20px auto 50px;
+}
+.pho{
+  width: 100%;
+  height: 150px;
+background-color: rgb(212, 241, 165);
+
+} 
+#tour{
+  width: 100%;
+  height: 390vh;
+background-color: cadetblue;
+margin-top: 50px;
+}
+.tou_r{
+  width: 100%;
+  height: 150px;
+background-color: rgb(81, 160, 45);
+}
+#tour_bud{
+  width: 80%;
+  height: 190vh;
+  background-color: rgb(0, 255, 213);
+  margin-top: 20px;
+  margin-left: 10%;
+}
+.box_1{
+  width: 90%;
+  height: 50px ;
+  background-color: white;
+  margin-left: 45%;
+  margin-top: 10%;
+  border-radius: 40% ;
+  border: solid 5px springgreen;
+}
+#GFG{
+  text-decoration: none;
+}
+
+ 
+
+ 

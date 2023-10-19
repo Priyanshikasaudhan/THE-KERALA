@@ -1,0 +1,110 @@
+body{
+  overflow-x: hidden;
+} 
+.header{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(192, 236, 177);
+  margin: 0;
+}
+.banner{
+    width: 99%;
+    height: 20vh;
+    background-color:indianred;
+    position: fixed;
+    border:5px solid rgb(141, 165, 153);
+    margin: 0;
+}
+#beach{
+    width: 100%;
+    height: 22vh;
+    background-color: rgb(136, 136, 189);
+    
+}
+.beach_img{
+    width: 100%;
+    height: 55vh;
+    
+    margin-top:10px;
+  
+}
+ 
+/* Slideshow container */
+.slideshow-container {
+    max-width: 99%;
+    height: 55vh;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  /*Kovalam*/
+  #Kovalam {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(241, 187, 168);
+    margin-top: 20px;
+  }
+  /*Bekal*/
+  #Bekal{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(202, 146, 99);
+    margin-top: 20px;
+  }
+  /*Varkala*/
+  #Varkala{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(238, 240, 136);
+    margin-top: 20px;
+  }
+  /* Kozhikode*/
+  #Kozhikode{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(185, 236, 175);
+    margin-top: 20px;
+  }
+  /*Alappuzha*/
+  #Alappuzha{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(150, 189, 180);
+    margin-top: 20px;
+  }

@@ -1,0 +1,137 @@
+body{
+    overflow-x: hidden;
+  } 
+.header{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(252, 249, 252);
+}
+#banner{
+    width: 100%;
+    height: 20vh;
+    background-color:hsla(0, 100%, 30%, 0.3);    
+    position: fixed;
+    border: 5px solid  springgreen;
+}
+#box{
+    width: 100%;
+    height: 20vh;
+
+}
+#box1{
+    width: 99%;
+    height: 45vh;
+    background-color: rgb(194, 235, 197);
+    margin-top:20px ;
+    border: 5px solid turquoise;
+}
+#water1{
+    width: 100%;
+    height: 150vh;
+    margin-top: 10px;
+    background-color: rgb(128, 156, 137);
+}
+.box2{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(136, 40, 40);
+    margin-top:20px ;
+    
+}
+.img1{
+    width: 60%;
+    height:95vh;
+    background-color: rgb(207, 207, 128);
+    margin-left: 20%;
+    margin-top: 10px;
+    background-image: url("/home/priyanshi/BHARAT/images/aa.jpeg");
+    background-size: 100%;
+}
+#water2{
+    width: 100%;
+    height: 150vh;
+    margin-top: 10px;
+    background-color: indianred;
+}
+.box3{
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(231, 18, 18, 0.726);
+    margin-top:20px ;
+    
+}
+.img2{
+    width: 60%;
+    height: 100vh;
+    
+    margin-left: 20%;
+    margin-top: 10px;
+    background-image: url("/home/priyanshi/BHARAT/images/vazhachaal-a-waterfalls-250x250.webp");
+    background-size: 100%;
+}
+#water3{
+    width: 100%;
+    height: 100vh;
+    margin-top: 10px;
+    background-color: wheat;
+}
+.box4{
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(66, 150, 132, 0.726);
+    margin-top:20px ;
+    
+}
+.img3{
+    width: 50%;
+    height: 55vh;
+    
+    margin-left: 20%;
+    margin-top: 10px;
+    background-image: url("/home/priyanshi/BHARAT/gif/athirappilly-hill-waterfalls.jpg");
+    background-size: 100%;
+}
+#water4{
+    width: 100%;
+    height: 100vh;
+    margin-top: 10px;
+    background-color: rgb(240, 191, 241);
+}
+.box5{
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(190, 236, 226, 0.726);
+    margin-top:20px ;
+    
+}
+.img4{
+    width: 50%;
+    height: 55vh;
+    
+    margin-left: 20%;
+    margin-top: 10px;
+    background-image: url("/home/priyanshi/BHARAT/gif/athirappilly-hill-waterfalls.jpg");
+    background-size: 100%;
+}
+#water5{
+    width: 100%;
+    height: 100vh;
+    margin-top: 10px;
+    background-color: rgba(158, 151, 118, 0.959);
+}
+.box6{
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(174, 192, 196, 0.726);
+    margin-top:20px ;
+    
+}
+.img5{
+    width: 50%;
+    height: 55vh;
+    
+    margin-left: 20%;
+    margin-top: 10px;
+    background-image: url("/home/priyanshi/BHARAT/gif/athirappilly-hill-waterfalls.jpg");
+    background-size: 100%;
+}

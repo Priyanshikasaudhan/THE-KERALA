@@ -1,0 +1,357 @@
+body{
+    overflow-x: hidden;
+  } 
+          .banner{
+              width: 100%;
+              height: 100vh;
+               
+          }
+          #about{
+              width: 100%;
+              height: 160vh;
+              background-color: rgb(30, 218, 228);
+              margin-top: 10px;
+          }
+           
+          
+  .header{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(198, 245, 237);
+    margin: 0;
+  }
+    
+  /* Add a black background color to the top navigation */
+.topnav {
+  
+    overflow: hidden;
+    width: 80%;
+    height: 50px;
+    padding-top: 50px;
+    float: right;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: contour;
+    color: tomato;
+    text-align: center;
+    margin-left: 100px;
+    padding: 16px 17px;
+    text-decoration: yellow;
+   font-size: 20px;
+   margin-top: 100px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: brown ;
+    color: violet;
+  } 
+  #state{
+      width: 100%;
+              height: 25vh;
+              background-color: rgb(45, 206, 218);
+              margin-top: 
+              10px;
+  }
+  
+   
+  #footer{
+      width: 100%;
+              height: 200px;
+              background-color: rgb(3, 26, 27);
+              margin-top: 10px;
+  }
+  .menu{
+      width: 100%;
+              height: 100px;
+  background-color: rgb(216, 238, 216);
+  }
+  #logo{
+      width: 20%;
+              height: 50px;
+              background-color: paleturquoise;
+              float: left;
+  }
+  #name{
+       width: 100%;
+       height: 130px;
+       background-color: royalblue;
+       position: absolute;
+       margin-top: 2px;
+  }
+  .box{
+    width: 50%;
+    height: 520px;
+    background-color: red;
+    float: left;
+    margin-top: 150px;
+}
+.box1{
+    width: 50%;
+    height: 520px;
+    background-color: turquoise;
+    margin-top: 150px;
+    float: right;
+}
+
+  table, th{
+      border: 1px solid black;
+  }
+  .write_conter{
+      width: 100%;
+       height: 150px;
+    background-color: slategray;
+       position: absolute;
+  }
+  h1{
+      text-align: center;
+      
+  }
+  .write_conter h1::after{
+         
+         content: '';
+         background: #ff4d73;
+         display: block;
+         height: 10px;
+         width: 170px;
+         margin: 20px auto 50px;
+  
+  }
+   
+  #top{
+      width: 60%;
+      height: 200px;
+  background-color: springgreenS;
+  }
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  #state1{
+    width: 100%;
+              height: 100vh;
+              background-color: rgb(15, 71, 228);
+  
+  }
+  #state2{
+    width: 100%;
+              height: 100vh;
+              background-color: rgb(15, 71, 228);
+  
+  }
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    background-color: maroon;
+    margin: auto;
+    height:500px ;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: 22px;
+    color: rgb(241, 9, 9);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+.img{
+      width: 100%;
+      height: 30vh;
+      background-color: rgb(255, 230, 0);
+      margin-top: 150px;
+  }
+  .write_conter1{
+    width: 100%;
+     height: 150px;
+  background-color: rgb(136, 191, 247);
+     position: absolute;
+     margin-top: 10px;
+}
+h1{
+    text-align: center;
+    
+}
+.write_conter1 h1::after{
+       
+       content: '';
+       background: #ff4d73;
+       display: block;
+       height: 10px;
+       width: 170px;
+       margin: 20px auto 50px;
+
+}
+ /* KERALA */
+ .Kerala{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(30, 144, 210);
+margin-top: 20px;
+}
+
+/*onam */
+.Kera_la{
+  width: 50%;
+  height: 100vh;
+  float: left;
+  background-color: rgb(255, 72, 0);
+  
+}
+.Kerala_img{
+  width:50%;
+  height: 100vh;
+  float: right;
+  
+  background-color: rgb(247, 4, 226);
+  
+}
+/*AWADH*/
+.Awadh{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(30, 144, 210);
+margin-top: 20px;
+}
+
+
+.Awa_dh{
+  width: 50%;
+  height: 100vh;
+  float: right;
+  background-color: rgb(255, 72, 0);
+  
+}
+.Awadh_img{
+  width:50%;
+  height: 100vh;
+  float: left;
+  
+  background-color: rgb(247, 4, 226);
+  
+}
+/* punjab*/
+.punjab{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(30, 144, 210);
+margin-top: 20px;
+}
+
+
+.pun_jab{
+  width: 50%;
+  height: 100vh;
+  float: left;
+  background-color: rgb(240, 151, 116);
+  
+}
+.punjab_img{
+  width:50%;
+  height: 100vh;
+  float: right;
+  
+  background-color: rgb(247, 4, 226);
+  
+}

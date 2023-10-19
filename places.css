@@ -1,0 +1,146 @@
+body{
+    overflow-x: hidden;
+  } 
+.header{
+    width: 100%;
+    height: 25vh;
+}
+.ban{
+    width: 60%;
+    height: 20vh;
+    
+    position: fixed;
+    margin-left: 40%;
+float: right;
+}
+ 
+.logo{
+    width: 40%;
+    height: 20vh;
+    float:left;
+    margin-left: 10px;
+    position: fixed;
+
+}
+#img{
+    width: 80%;
+    height: 90vh;
+    background-image: url("/home/priyanshi/BHARAT/images/tourist-places-in-kerala-750x430.jpg");
+    background-size: 100%;
+    margin-left: 10%;
+}
+#kerala{
+    width: 80%;
+    height: 10vh;
+    background-size: 100%;
+    margin-left: 10%;
+    background-color: rgb(218, 181, 218);
+}
+.write_conter{
+    width: 50%;
+     height: 100px;
+     color: rgb(233, 27, 20);
+     position: absolute;
+     text-align: center;
+     margin-left: 14%;
+  }
+   
+  .write_conter h4::after{
+       
+       content: '';
+       background: #ff4d73;
+       display: block;
+       height:5px;
+       width: 100px;
+       margin: 10px auto 50px;
+  }
+  #kerala_text{
+    width: 80%;
+    height: 75vh;
+ margin: 0;
+ margin-left: 10%;
+    background-color: rgb(255, 251, 255);
+  }
+  table{
+    border: 1px solid black;
+  }
+  /*Alleppey*/
+  #Alleppey{
+    width: 80%;
+    height: 170vh;
+ margin-top: 10px;
+ margin-left: 10%;
+    background-color: rgb(120, 228, 11);
+  }
+/*Munnar*/
+#Munnar{
+    width: 80%;
+    height: 170vh;
+ margin-top: 10px;
+ margin-left: 10%;
+    background-color: rgb(185, 128, 101);
+}
+/* Kovalam*/
+#Kovalam{
+width: 80%;
+    height: 170vh;
+ margin-top: 10px;
+ margin-left: 10%;
+    background-color: rgb(177, 175, 100);
+}
+/*Kochi*/
+#Kochi{
+    width: 80%;
+    height: 190vh;
+ margin-top: 10px;
+ margin-left: 10%;
+    background-color: rgb(82, 97, 129);
+}
+/*Thekkady*/
+#Thekkady{
+    width: 80%;
+    height: 170vh;
+ margin-top: 10px;
+ margin-left: 10%;
+    background-color: rgb(128, 191, 211);
+}
+/*Wayanad*/
+#Wayanad{
+    width: 80%;
+    height: 170vh;
+ margin-top: 10px;
+ margin-left: 10%;
+    background-color: rgb(150, 93, 131);
+}
+/*Kumarakom*/
+#Kumarakom{
+    width: 80%;
+    height: 170vh;
+ margin-top: 10px;
+ margin-left: 10%;
+    background-color: rgb(197, 139, 156);
+}
+/*Thrissur*/
+#Thrissur{
+    width: 80%;
+    height: 160vh;
+ margin-top: 10px;
+ margin-left: 10%;
+    background-color: rgb(87, 170, 132);
+}
+/*Thiruvananthapuram*/
+#Thiruvananthapuram{
+    width: 80%;
+    height: 170vh;
+ margin-top: 10px;
+ margin-left: 10%;
+    background-color: rgb(103, 175, 169);
+}
+/*Kozhikode*/
+#Kozhikode{
+    width: 80%;
+    height: 170vh;
+ margin-top: 10px;
+ margin-left: 10%;
+    background-color: rgb(166, 207, 235);
+}
